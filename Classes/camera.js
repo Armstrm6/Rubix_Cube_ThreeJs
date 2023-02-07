@@ -4,7 +4,7 @@ function createCamera(container) {
   const camera = new PerspectiveCamera(
     200, // fov = Field Of View
     100, // aspect ratio (dummy value)
-    .01, // near clipping plane
+    .1, // near clipping plane
     2000 // far cliping plane
   );
 
